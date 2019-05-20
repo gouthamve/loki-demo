@@ -1,0 +1,84 @@
+{
+    "dependencies": [
+        {
+            "name": "tns-mixin",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/tns",
+                    "subdir": "production/tns-mixin"
+                }
+            },
+            "version": "61e4c79072fc7f1ecb3238fe7299dbb7ea43c09e"
+        },
+        {
+            "name": "grafana-builder",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "subdir": "grafana-builder"
+                }
+            },
+            "version": "a73d6c3e7f5804fc7a16f592b42a62384605046c"
+        },
+        {
+            "name": "kubernetes-mixin",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/kubernetes-monitoring/kubernetes-mixin",
+                    "subdir": ""
+                }
+            },
+            "version": "2432475c37f0e3b3e312714f577e9952db5964a7"
+        },
+        {
+            "name": "grafonnet",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/grafonnet-lib",
+                    "subdir": "grafonnet"
+                }
+            },
+            "version": "a6896d19aedc46ecf80dd64967191b9fd6f75f45"
+        },
+        {
+            "name": "prometheus-mixin",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/prometheus/prometheus",
+                    "subdir": "documentation/prometheus-mixin"
+                }
+            },
+            "version": "38a9bbbec2a10d924fd8d7b4b07422779a78a3ea"
+        },
+        {
+            "name": "alertmanager-mixin",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/prometheus/alertmanager",
+                    "subdir": "doc/alertmanager-mixin"
+                }
+            },
+            "version": "65380db55951c1164e34a81ca79943050de6df3f"
+        },
+        {
+            "name": "oauth2_proxy",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "subdir": "oauth2-proxy"
+                }
+            },
+            "version": "a73d6c3e7f5804fc7a16f592b42a62384605046c"
+        },
+        {
+            "name": "ksonnet-util",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/kausalco/public",
+                    "subdir": "ksonnet-util"
+                }
+            },
+            "version": "a73d6c3e7f5804fc7a16f592b42a62384605046c"
+        }
+    ]
+}
