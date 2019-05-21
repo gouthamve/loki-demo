@@ -1,5 +1,5 @@
 ```
-k3d  create --publish 8082:30080@k3d-k3s-default-worker-0 --publish 3000:30081@k3d-k3s-default-worker-0 --workers 2
+k3d  create --publish 8082:30080@k3d-k3s-default-worker-0 --publish 3000:30030@k3d-k3s-default-worker-0 --workers 2
 export KUBECONFIG="$(k3d get-kubeconfig --name='k3s-default')"
 kubectl create -f tiller-rbac.yaml
 helm init --service-account tiller
