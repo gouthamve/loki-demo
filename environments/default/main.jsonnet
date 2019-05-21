@@ -8,7 +8,7 @@ prometheus + tns {
   },
 
   _images+:: {
-    grafana: 'grafana/grafana-dev:master-66ba2aa524d1ecb8143354468a14f55d44bcac1d',
+    grafana: 'grafana/grafana-dev:master-5414a3110107f9d3a3d1bf3822e48b9ce40469d4',
   },
 
   grafana_datasource_config_map+:
