@@ -7,6 +7,10 @@ prometheus + tns {
     grafana_root_url: '',
   },
 
+  _images+:: {
+    grafana: 'grafana/grafana-dev:master-66ba2aa524d1ecb8143354468a14f55d44bcac1d',
+  },
+
   grafana_datasource_config_map+:
     $.core.v1.configMap.withDataMixin({
       'loki.yml': $.util.manifestYaml({
